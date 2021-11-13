@@ -46,6 +46,8 @@ group :development, :test do
   # Start debugger with binding.b [https://github.com/ruby/debug]
   gem "debug", ">= 1.0.0", platforms: %i[ mri mingw x64_mingw ]
   gem 'rspec-rails', '~> 5.0.0'
+
+  gem 'dotenv-rails'
 end
 
 group :development do
